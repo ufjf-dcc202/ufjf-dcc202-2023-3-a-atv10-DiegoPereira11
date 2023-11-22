@@ -9,4 +9,14 @@ function getJoao(){
     return joao;
 }
 
-export{getMaria, getJoao};
+function deJoaoParaMaria(){
+    joao = joao + maria;
+    maria = 0;
+}
+
+function deMariaParaJoao(){
+    maria = maria + joao;
+    joao = 0;
+}
+
+export{getMaria, getJoao, deJoaoParaMaria, deMariaParaJoao};
