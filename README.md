@@ -3,6 +3,12 @@
 
 Esta é a atividade 10. Siga as instruções em sala e garanta que tanto os testes do playwright quanto do vitest estejam passando:
 
+`npm install`
+
 `npm run e2e`
 
 `npm run test`
+
+instalar a extensão vitest no vscode e dê ctrl + shift + p >reload window(vai aparecer vitest)
+
+OBS: NÃO rodar o teste do aquivo e2e do vitest
